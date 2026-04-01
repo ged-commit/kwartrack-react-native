@@ -6,9 +6,9 @@ const SubscriptionDetails = () => {
     return (
         <View>
             <Text>Subscription Details: { id }</Text>
-            <Link href="/">Go back </Link>
+            <Link href="/(tabs)">Go back</Link>
         </View>
     )
 }
 
-export default SubscriptionDetails
+export default SubscriptionDetails;
